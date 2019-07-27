@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>图层开关控件</title>
+    <link rel="stylesheet" href="https://openlayers.org/en/v4.6.5/css/ol.css" type="text/css">
+    <link rel="stylesheet" href="/src/css/ol-control-layerswitch.css" type="text/css">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/v4.6.5-dist/ol-debug.js"></script>
+    <style>
+        head, body, #map{
+            width: 100%;
+            height: 100%;
+            background-color: darkgrey;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button type="button" id="add">添加图层</button>
+        <button type="button" id="remove">移除图层</button>
+    </div>
+    <div id="map"></div>
+    <script src="/src/ol-control-layerswitch.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
